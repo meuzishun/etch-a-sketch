@@ -25,3 +25,7 @@
     border: 1px solid black;
     flex-grow: 1;
 }
+
+.hovered {
+    background-color: grey;
+}

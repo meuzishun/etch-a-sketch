@@ -10,7 +10,7 @@ function buildGrid(num) {
             cell.classList.add('cell');
             row.appendChild(cell);
         }
-        
+
         container.appendChild(row);
     }
 }

@@ -5,8 +5,8 @@
 }
 
 .container {
-    width: 960px;
-    height: 960px;
+    width: 700px;
+    height: 700px;
     margin: 0 auto;
 
     display: flex;
@@ -22,10 +22,21 @@
 }
 
 .cell {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-grow: 1;
 }
 
 .hovered {
     background-color: grey;
+}
+
+.clear-btn {
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    align-self: center;
+    color: white;
+    background-color: rgb(94, 107, 160);
+    border: none;
+    border-radius: 0.5rem;
 }
